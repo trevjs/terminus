@@ -2,9 +2,7 @@
 
 namespace Terminus\Models;
 
-use Terminus\Caches\SitesCache;
 use Terminus\Exceptions\TerminusException;
-use Terminus\Models\Organization;
 use Terminus\Models\TerminusModel;
 use Terminus\Models\Collections\Environments;
 use Terminus\Models\Collections\OrganizationSiteMemberships;
@@ -241,16 +239,6 @@ class Site extends TerminusModel {
   }
 
   /**
-   * Deletes site from cache
-   *
-   * @return void
-   */
-  public function deleteFromCache() {
-    // TODO: $this->collection is not defined.
-    $this->collection->deleteSiteFromCache($this->get('name'));
-  }
-
-  /**
    * Disables Redis caching
    *
    * @return array
@@ -330,7 +318,6 @@ class Site extends TerminusModel {
       sprintf('sites/%s/settings', $this->get('id'))
     );
     $this->attributes = $response['data'];
-    $this->collection->sites_cache->update((array)$response['data']);
   }
 
   /**
@@ -587,9 +574,6 @@ class Site extends TerminusModel {
 
   /**
    * Sets the PHP version number of this site
-   * Note: Once this changes, you need to refresh the data in the cache for
-   *   this site or the returned PHP version will not reflect the change.
-   *   $this->fetchAttributes() will complete this action for you.
    *
    * @param string $version_number The version number to set this site to use
    * @return void
