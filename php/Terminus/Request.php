@@ -47,7 +47,7 @@ class Request {
   }
 
   /**
-   * Make a request to the Dashbord's internal API
+   * Make a paged request to the Pantheon API
    *
    * @param string $path    API path (URL)
    * @param array  $options Options for the request
@@ -100,7 +100,7 @@ class Request {
   }
 
   /**
-   * Simplified request method for Pantheon API
+   * Make a request method to Pantheon API
    *
    * @param string $path        API path (URL)
    * @param array  $arg_options Options for the request
