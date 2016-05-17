@@ -7,6 +7,7 @@ use Terminus\Exceptions\TerminusException;
 use Terminus\Models\Collections\Backups;
 use Terminus\Models\Collections\Commits;
 use Terminus\Models\Collections\Hostnames;
+use Terminus\Models\Collections\Workflows;
 
 class Environment extends NewModel {
   /**
@@ -25,6 +26,10 @@ class Environment extends NewModel {
    * @var Site
    */
   public $site;
+  /**
+   * @var Workflows
+   */
+  public $workflows;
 
   /**
    * Object constructor
@@ -39,6 +44,7 @@ class Environment extends NewModel {
     $this->backups   = new Backups($params);
     $this->commits   = new Commits($params);
     $this->hostnames = new Hostnames($params);
+    $this->workflows = new Workflows($params);
     $this->site      = $options['collection']->site;
   }
 
@@ -64,7 +70,7 @@ class Environment extends NewModel {
     }
 
     $params   = ['environment' => $this->id,];
-    $workflow = $this->site->workflows->create($workflow_name, $params);
+    $workflow = $this->workflows->create($workflow_name, $params);
     return $workflow;
   }
 
@@ -79,7 +85,7 @@ class Environment extends NewModel {
       'environment' => $to_env,
       'params'      => ['from_environment' => $this->getName(),],
     ];
-    $workflow = $this->site->workflows->create('clone_database', $params);
+    $workflow = $this->workflows->create('clone_database', $params);
     return $workflow;
   }
 
@@ -94,7 +100,7 @@ class Environment extends NewModel {
       'environment' => $to_env,
       'params'      => ['from_environment' => $this->getName(),],
     ];
-    $workflow = $this->site->workflows->create('clone_files', $params);
+    $workflow = $this->workflows->create('clone_files', $params);
     return $workflow;
   }
 
@@ -121,7 +127,7 @@ class Environment extends NewModel {
         'committer_email' => $git_email,
       ],
     ];
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'commit_and_push_on_server_changes',
       $params
     );
@@ -293,7 +299,7 @@ class Environment extends NewModel {
    * @return array
    */
   public function convergeEnvironment() {
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'converge_environment',
       ['environment' => $this->id,]
     );
@@ -327,7 +333,7 @@ class Environment extends NewModel {
    */
   public function deploy($params) {
     $params   = ['environment' => $this->id, 'params' => $params,];
-    $workflow = $this->site->workflows->create('deploy', $params);
+    $workflow = $this->workflows->create('deploy', $params);
     return $workflow;
   }
 
@@ -424,7 +430,7 @@ class Environment extends NewModel {
    * @return Workflow
    */
   public function importDatabase($url) {
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'import_database',
       ['environment' => $this->id, 'params' => compact('url'),]
     );
@@ -438,7 +444,7 @@ class Environment extends NewModel {
    * @return Workflow
    */
   public function importFiles($url) {
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'import_files',
       ['environment' => $this->id, 'params' => compact('url'),]
     );
@@ -520,7 +526,7 @@ class Environment extends NewModel {
         'clone_files'    => ['from_environment' => $from_env_id,],
       ]
     ];
-    $workflow = $this->site->workflows->create('create_environment', $params);
+    $workflow = $this->workflows->create('create_environment', $params);
     return $workflow;
   }
 
@@ -564,7 +570,7 @@ class Environment extends NewModel {
         'password' => $password
       ],
     ];
-    $workflow = $this->site->workflows->create('lock_environment', $params);
+    $workflow = $this->workflows->create('lock_environment', $params);
     return $workflow;
   }
 
@@ -597,7 +603,7 @@ class Environment extends NewModel {
 
     $params   = array_merge($default_params, $options);
     $settings = ['environment' => $this->id, 'params' => $params,];
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'merge_dev_into_cloud_development_environment',
       $settings
     );
@@ -628,7 +634,7 @@ class Environment extends NewModel {
     // multidev environment, but it applies a workflow to the 'dev' environment
     $params['from_environment'] = $this->id;
     $settings = ['environment' => 'dev', 'params' => $params,];
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'merge_cloud_development_environment_into_dev',
       $settings
     );
@@ -695,7 +701,7 @@ class Environment extends NewModel {
         'value' => $version_number,
       ],
     ];
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'update_environment_setting',
       $options
     );
@@ -709,7 +715,7 @@ class Environment extends NewModel {
    */
   public function unlock() {
     $params   = ['environment' => $this->id,];
-    $workflow = $this->site->workflows->create('unlock_environment', $params);
+    $workflow = $this->workflows->create('unlock_environment', $params);
     return $workflow;
   }
 
@@ -723,7 +729,7 @@ class Environment extends NewModel {
       'environment' => $this->id,
       'params'      => ['key' => 'php_version',],
     ];
-    $workflow = $this->site->workflows->create(
+    $workflow = $this->workflows->create(
       'delete_environment_setting',
       $options
     );
@@ -761,7 +767,7 @@ class Environment extends NewModel {
    */
   public function wipe() {
     $params   = ['environment' => $this->id,];
-    $workflow = $this->site->workflows->create('wipe', $params);
+    $workflow = $this->workflows->create('wipe', $params);
     return $workflow;
   }
 
