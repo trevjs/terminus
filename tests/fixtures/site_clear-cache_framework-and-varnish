@@ -9,8 +9,8 @@
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer 25069e79-eae7-4d41-8925-1f728a114cb8:c18ab5da-5749-11e5-a354-bc764e117665:Qf8DH30VlqgfqCYaQBcij'
-            headers: 'Bearer 25069e79-eae7-4d41-8925-1f728a114cb8:c18ab5da-5749-11e5-a354-bc764e117665:Qf8DH30VlqgfqCYaQBcij'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
             verify: ''
             method: post
             absolute_url: ''
@@ -24,11 +24,11 @@
             message: OK
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:36 GMT'
+            Date: 'Mon, 23 May 2016 21:55:33 GMT'
             Content-Type: 'application/json; charset=utf-8'
             Content-Length: '182'
             Connection: keep-alive
-            X-Pantheon-Trace-Id: a9407760-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 128c2f70-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
@@ -36,7 +36,7 @@
             Pragma: no-cache
             Vary: Accept-Encoding
             Strict-Transport-Security: max-age=31536000
-        body: '{"session":"fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af","expires_at":1466459556,"user_id":"fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734"}'
+        body: '{"session":"fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S","expires_at":1466459733,"user_id":"fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734"}'
 -
     request:
         method: GET
@@ -46,8 +46,8 @@
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
-            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
             verify: ''
             method: get
             absolute_url: ''
@@ -59,11 +59,11 @@
             message: OK
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:37 GMT'
+            Date: 'Mon, 23 May 2016 21:55:33 GMT'
             Content-Type: application/json
             Transfer-Encoding: chunked
             Connection: keep-alive
-            X-Pantheon-Trace-Id: a9961170-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 12e1a270-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
@@ -81,8 +81,8 @@
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
-            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
             verify: ''
             method: get
             absolute_url: ''
@@ -94,11 +94,11 @@
             message: OK
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:37 GMT'
+            Date: 'Mon, 23 May 2016 21:55:34 GMT'
             Content-Type: application/json
             Transfer-Encoding: chunked
             Connection: keep-alive
-            X-Pantheon-Trace-Id: aa27a310-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 132a6b40-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
@@ -116,8 +116,8 @@
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
-            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
             verify: ''
             method: get
             absolute_url: ''
@@ -129,11 +129,11 @@
             message: OK
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:38 GMT'
+            Date: 'Mon, 23 May 2016 21:55:34 GMT'
             Content-Type: application/json
             Transfer-Encoding: chunked
             Connection: keep-alive
-            X-Pantheon-Trace-Id: aa5c47a0-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 135ec1b0-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
@@ -151,8 +151,8 @@
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
-            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
             verify: ''
             method: get
             absolute_url: ''
@@ -165,11 +165,11 @@
             message: OK
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:38 GMT'
+            Date: 'Mon, 23 May 2016 21:55:34 GMT'
             Content-Type: application/json
             Transfer-Encoding: chunked
             Connection: keep-alive
-            X-Pantheon-Trace-Id: aab3dd80-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 13b2fc30-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
@@ -188,14 +188,14 @@
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
-            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
             verify: ''
             method: post
             absolute_url: ''
             json: ''
             Accept: null
-        body: '{"type":"clear_cache","params":{"framework_cache":false,"varnish_cache":false}}'
+        body: '{"type":"clear_cache","params":{"framework_cache":true,"varnish_cache":true}}'
     response:
         status:
             http_version: '1.1'
@@ -203,29 +203,29 @@
             message: Accepted
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:40 GMT'
+            Date: 'Mon, 23 May 2016 21:55:36 GMT'
             Content-Type: application/json
             Transfer-Encoding: chunked
             Connection: keep-alive
-            X-Pantheon-Trace-Id: ab09c5b0-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 1405d720-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
             Cache-Control: no-cache
             Pragma: no-cache
             Vary: Accept-Encoding
-        body: '{"environment_id": "dev", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "trace_id": "ab09c5b0-2130-11e6-a18a-5b359b7a5af1", "params": {"framework_cache": false, "varnish_cache": false}, "task_ids": ["ab1187b4-2130-11e6-8665-bc764e11227e"], "role": "owner", "type": "clear_cache", "id": "ab0f52fa-2130-11e6-8665-bc764e11227e", "key": "1464037200", "waiting_for_task_id": "ab1187b4-2130-11e6-8665-bc764e11227e", "keep_forever": false, "phase": "created", "queued_time": null, "run_time": null, "created_at": 1464040359.343385, "reason": "", "environment": "dev", "final_task_id": null, "result": null, "total_time": null, "active_description": "Clear cache for \"dev\"", "description": "Clear cache for \"dev\"", "step": 1, "has_operation_log_output": false, "number_of_tasks": 1, "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=ab09c5b0-2130-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:47:39.343385Z&to_iso_date=now", "user": {"user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "created_at": 1463779128, "destination_organization_id": null, "is_registered": true, "created_organization_id": null, "password": "SCRUBBED", "email": "devuser@pantheon.io"}, "user_email": "devuser@pantheon.io", "waiting_for_task": {"environment": "dev", "fn_name": "queue_jenkins_task", "params": {"site_hostname": "dev-behat-tests.onebox.pantheon.io", "task_type": "take_screenshot", "job_id": "ab1187b4-2130-11e6-8665-bc764e11227e", "envs": "dev", "quiet_period": "1sec", "host": "162.242.168.42", "site_uuid": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "pool": ["162.242.168.42"]}, "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "trace_id": "ab09c5b0-2130-11e6-a18a-5b359b7a5af1", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "workflow_id": "ab0f52fa-2130-11e6-8665-bc764e11227e", "id": "ab1187b4-2130-11e6-8665-bc764e11227e", "key": "1464037200", "responses": [], "queued_time": null, "host": "162.242.168.42", "result": null, "phase": "created", "created_at": 1464040359.357842, "allow_concurrent": false, "run_time": null, "total_time": null, "reason": "", "error_details": "", "internal_reason": "", "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=ab09c5b0-2130-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:47:39.357842Z&to_iso_date=now", "type": "take_screenshot", "build_url": null, "messages": {}}}'
+        body: '{"environment_id": "dev", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "trace_id": "1405d720-2131-11e6-a18a-5b359b7a5af1", "params": {"framework_cache": true, "varnish_cache": true}, "task_ids": ["140f6e2a-2131-11e6-820f-bc764e11227e", "1410a4f2-2131-11e6-820f-bc764e11227e", "1411a906-2131-11e6-820f-bc764e11227e"], "role": "owner", "type": "clear_cache", "id": "140bda08-2131-11e6-820f-bc764e11227e", "key": "1464037200", "waiting_for_task_id": "140f6e2a-2131-11e6-820f-bc764e11227e", "keep_forever": false, "phase": "created", "queued_time": null, "run_time": null, "created_at": 1464040535.481396, "reason": "", "environment": "dev", "final_task_id": null, "result": null, "total_time": null, "active_description": "Clear cache for \"dev\"", "description": "Clear cache for \"dev\"", "step": 1, "has_operation_log_output": false, "number_of_tasks": 3, "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=1405d720-2131-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:50:35.481396Z&to_iso_date=now", "user": {"user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "created_at": 1463779128, "destination_organization_id": null, "is_registered": true, "created_organization_id": null, "password": "SCRUBBED", "email": "devuser@pantheon.io"}, "user_email": "devuser@pantheon.io", "waiting_for_task": {"environment": "dev", "fn_name": "queue_jenkins_task", "params": {"host": "162.242.168.42", "task_type": "endpoint_clear_framework_cache", "job_id": "140f6e2a-2131-11e6-820f-bc764e11227e", "binding_id": "7e148f347a9f4cd0aff6a3760ee136f2"}, "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "trace_id": "1405d720-2131-11e6-a18a-5b359b7a5af1", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "workflow_id": "140bda08-2131-11e6-820f-bc764e11227e", "id": "140f6e2a-2131-11e6-820f-bc764e11227e", "key": "1464037200", "responses": [], "queued_time": null, "host": "162.242.168.42", "result": null, "phase": "created", "created_at": 1464040535.504849, "allow_concurrent": false, "run_time": null, "total_time": null, "reason": "", "error_details": "", "internal_reason": "", "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=1405d720-2131-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:50:35.504849Z&to_iso_date=now", "type": "endpoint_clear_framework_cache", "build_url": null, "messages": {}}}'
 -
     request:
         method: GET
-        url: 'https://onebox/api/sites/f8cdfc1b-d63c-449c-ab2f-8cb20715d95f/workflows/ab0f52fa-2130-11e6-8665-bc764e11227e'
+        url: 'https://onebox/api/sites/f8cdfc1b-d63c-449c-ab2f-8cb20715d95f/workflows/140bda08-2131-11e6-820f-bc764e11227e'
         headers:
             Host: onebox
             Accept-Encoding: null
             User-Agent: 'Terminus/0.11.1 (php_version=7.0.6&script=boot-fs.php)'
             Content-type: application/json
-            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
-            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:a946629c-2130-11e6-a77b-bc764e11227e:DwCmG5r2fZgky1cqH54Af'
+            Authorization: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
+            headers: 'Bearer fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734:129307e6-2131-11e6-ad93-bc764e11227e:CiWGQnuXwxB9cszEMdS4S'
             verify: ''
             method: get
             absolute_url: ''
@@ -238,11 +238,11 @@
             message: OK
         headers:
             Server: nginx
-            Date: 'Mon, 23 May 2016 21:52:41 GMT'
+            Date: 'Mon, 23 May 2016 21:55:36 GMT'
             Content-Type: application/json
             Transfer-Encoding: chunked
             Connection: keep-alive
-            X-Pantheon-Trace-Id: ac3acba0-2130-11e6-a18a-5b359b7a5af1
+            X-Pantheon-Trace-Id: 14e49e60-2131-11e6-a18a-5b359b7a5af1
             X-Frame-Options: deny
             Access-Control-Allow-Methods: GET
             Access-Control-Allow-Headers: 'Origin, Content-Type, Accept'
@@ -250,4 +250,4 @@
             Pragma: no-cache
             Vary: Accept-Encoding
             Strict-Transport-Security: max-age=31536000
-        body: '{"environment_id": "dev", "params": {"framework_cache": false, "varnish_cache": false}, "role": "owner", "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "started_at": 1464040359.627857, "task_ids": ["ab1187b4-2130-11e6-8665-bc764e11227e"], "trace_id": "ab09c5b0-2130-11e6-a18a-5b359b7a5af1", "type": "clear_cache", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "id": "ab0f52fa-2130-11e6-8665-bc764e11227e", "key": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "waiting_for_task_id": "ab1187b4-2130-11e6-8665-bc764e11227e", "keep_forever": false, "phase": "started", "queued_time": null, "run_time": null, "created_at": 1464040359.343385, "reason": "", "environment": "dev", "final_task_id": null, "result": "succeeded", "total_time": null, "active_description": "Clearing caches for \"dev\"", "description": "Clear cache for \"dev\"", "step": 1, "has_operation_log_output": false, "number_of_tasks": 1, "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=ab09c5b0-2130-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:47:39.343385Z&to_iso_date=now", "user": {"user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "created_at": 1463779128, "destination_organization_id": null, "is_registered": true, "created_organization_id": null, "password": "SCRUBBED", "email": "devuser@pantheon.io"}, "user_email": "devuser@pantheon.io", "waiting_for_task": {"environment": "dev", "fn_name": "queue_jenkins_task", "params": {"site_hostname": "dev-behat-tests.onebox.pantheon.io", "task_type": "take_screenshot", "job_id": "ab1187b4-2130-11e6-8665-bc764e11227e", "envs": "dev", "quiet_period": "1sec", "host": "162.242.168.42", "site_uuid": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "pool": ["162.242.168.42"]}, "queued_at": 1464040359.62797, "responses": [{"code": 201, "body": "Successfully queued take_screenshot", "error_details": "", "internal_reason": ""}], "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "trace_id": "ab09c5b0-2130-11e6-a18a-5b359b7a5af1", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "workflow_id": "ab0f52fa-2130-11e6-8665-bc764e11227e", "id": "ab1187b4-2130-11e6-8665-bc764e11227e", "key": "1464037200", "queued_time": null, "host": "162.242.168.42", "result": null, "phase": "queued", "created_at": 1464040359.357842, "allow_concurrent": false, "run_time": null, "total_time": null, "reason": "", "error_details": "", "internal_reason": "", "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=ab09c5b0-2130-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:47:39.357842Z&to_iso_date=now", "type": "take_screenshot", "build_url": null, "messages": {"2016-05-23T21:52:41.347007": {"message": "Successfully queued take_screenshot", "level": "INFO"}}}}'
+        body: '{"environment_id": "dev", "params": {"framework_cache": true, "varnish_cache": true}, "role": "owner", "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "started_at": 1464040535.555916, "task_ids": ["140f6e2a-2131-11e6-820f-bc764e11227e", "1410a4f2-2131-11e6-820f-bc764e11227e", "1411a906-2131-11e6-820f-bc764e11227e"], "trace_id": "1405d720-2131-11e6-a18a-5b359b7a5af1", "type": "clear_cache", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "id": "140bda08-2131-11e6-820f-bc764e11227e", "key": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "waiting_for_task_id": "140f6e2a-2131-11e6-820f-bc764e11227e", "keep_forever": false, "phase": "started", "queued_time": null, "run_time": null, "created_at": 1464040535.481396, "reason": "", "environment": "dev", "final_task_id": null, "result": "succeeded", "total_time": null, "active_description": "Clearing caches for \"dev\"", "description": "Clear cache for \"dev\"", "step": 1, "has_operation_log_output": false, "number_of_tasks": 3, "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=1405d720-2131-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:50:35.481396Z&to_iso_date=now", "user": {"user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "created_at": 1463779128, "destination_organization_id": null, "is_registered": true, "created_organization_id": null, "password": "SCRUBBED", "email": "devuser@pantheon.io"}, "user_email": "devuser@pantheon.io", "waiting_for_task": {"build": {"url": "job/endpoint_clear_framework_cache/1/", "number": 1, "phase": "STARTED", "estimated_duration": -1, "duration": 0, "full_url": "https://162.242.168.42:8090/jenkins/job/endpoint_clear_framework_cache/1/"}, "environment": "dev", "fn_name": "queue_jenkins_task", "params": {"host": "162.242.168.42", "task_type": "endpoint_clear_framework_cache", "job_id": "140f6e2a-2131-11e6-820f-bc764e11227e", "binding_id": "7e148f347a9f4cd0aff6a3760ee136f2"}, "queued_at": 1464040535.556028, "responses": [{"code": 201, "body": "Successfully queued endpoint_clear_framework_cache", "error_details": "", "internal_reason": ""}], "site_id": "f8cdfc1b-d63c-449c-ab2f-8cb20715d95f", "started_at": 1464040536.642466, "trace_id": "1405d720-2131-11e6-a18a-5b359b7a5af1", "user_id": "fb4cd9c9-bea4-4733-a5e4-9b5f3e3d2734", "workflow_id": "140bda08-2131-11e6-820f-bc764e11227e", "id": "140f6e2a-2131-11e6-820f-bc764e11227e", "key": "1464037200", "queued_time": 1.0864381790161133, "host": "162.242.168.42", "result": null, "phase": "started", "created_at": 1464040535.504849, "allow_concurrent": false, "run_time": null, "total_time": null, "reason": "", "error_details": "", "internal_reason": "", "trace_log_url": "https://logs.onebox.getpantheon.com:9443//#/dashboard/file/Trace_Id.json?trace_id=1405d720-2131-11e6-a18a-5b359b7a5af1&from_iso_date=2016-05-23T21:50:35.504849Z&to_iso_date=now", "type": "endpoint_clear_framework_cache", "build_url": "https://162.242.168.42:8090/jenkins/job/endpoint_clear_framework_cache/1/", "messages": {"2016-05-23T21:55:36.946506": {"message": "Successfully queued endpoint_clear_framework_cache", "level": "INFO"}}}}'

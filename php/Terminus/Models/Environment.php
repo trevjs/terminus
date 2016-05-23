@@ -74,6 +74,27 @@ class Environment extends TerminusModel {
   }
 
   /**
+   * Clears an environment's cache
+   *
+   * @param array $arg_options Options for the cache clearing workflow
+   *        bool framework_cache True to add framework cache clearing
+   *        bool varnish_cache   True to add Varnish cache clearing
+   * @return Workflow
+   */
+  public function clearCache(array $arg_options = []) {
+    $default_options = [
+      'framework_cache' => false,
+      'varnish_cache' => false,
+    ];
+    $options         = array_merge($default_options, $arg_options);
+    $workflow        = $this->site->workflows->create(
+      'clear_cache',
+      ['environment' => $this->get('id'), 'params' => $options,]
+    );
+    return $workflow;
+  }
+
+  /**
    * Clones database from this environment to another
    *
    * @param string $to_env Environment to clone into

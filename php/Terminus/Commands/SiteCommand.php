@@ -125,20 +125,29 @@ class SiteCommand extends TerminusCommand {
    * [--env=<env>]
    * : Environment to clear
    *
+   * [--clear-framework-cache]
+   * : Adds clearing your framework's cache to this process
+   *
+   * [--clear-varnish-cache]
+   * : Adds clearing your site's Varnish cache to this process
+   *
    * ## EXAMPLES
    *  terminus site clear-cache --site=test
    *
    * @subcommand clear-cache
    */
   public function clearCache($args, $assoc_args) {
-    $site     = $this->sites->get(
-      $this->input()->siteName(array('args' => $assoc_args))
+    $site        = $this->sites->get(
+      $this->input()->siteName(['args' => $assoc_args,])
     );
-    $env_id   = $this->input()->env(array('args' => $assoc_args, 'site' => $site));
-    $workflow = $site->workflows->create(
-      'clear_cache',
-      array('environment' => $env_id)
+    $environment = $site->environments->get(
+      $this->input()->env(['args' => $assoc_args, 'site' => $site,])
     );
+    $options     = [
+      'framework_cache' => isset($assoc_args['clear-framework-cache']),
+      'varnish_cache'   => isset($assoc_args['clear-varnish-cache']),
+    ];
+    $workflow    = $environment->clearCache($options);
     $workflow->wait();
     $this->workflowOutput($workflow);
   }
